@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+    <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.guideController">
+        <children>
+            <Button fx:id="ADD" layoutX="56.0" layoutY="289.0" onAction="#ADD_to_database" prefHeight="25.0" prefWidth="90.0" text="ADD GUIDE" />
+            <PasswordField fx:id="g_password" layoutX="393.0" layoutY="192.0" prefHeight="25.0" prefWidth="161.0" promptText="password" />
+            <TextField fx:id="g_license_id" layoutX="106.0" layoutY="58.0" promptText="Licende_id" />
+            <TextField fx:id="g_name" layoutX="106.0" layoutY="116.0" promptText="Name" />
+            <TextField fx:id="g_salary" layoutX="106.0" layoutY="209.0" promptText="Salary" />
+            <TextField fx:id="g_email" layoutX="362.0" layoutY="58.0" prefHeight="25.0" prefWidth="222.0" promptText="email" />
+            <TextField fx:id="g_access_level" layoutX="392.0" layoutY="137.0" prefHeight="25.0" prefWidth="162.0" promptText="Access_level" />
+            <DatePicker fx:id="g_date_of_birth" layoutX="106.0" layoutY="159.0" prefHeight="25.0" prefWidth="162.0" promptText="Date of birth" />
+            <Label layoutX="19.0" layoutY="62.0" text="License_id" />
+            <Label layoutX="17.0" layoutY="120.0" text="Name" />
+            <Label layoutX="17.0" layoutY="213.0" text="Salary" />
+            <Label layoutX="288.0" layoutY="62.0" prefHeight="17.0" prefWidth="45.0" text="email" />
+            <Label layoutX="15.0" layoutY="163.0" text="Date of birth" />
+            <Label layoutX="288.0" layoutY="141.0" text="Access level" />
+            <Label layoutX="294.0" layoutY="205.0" text="password" />
+            <Label fx:id="e_vaild" layoutX="294.0" layoutY="99.0" prefHeight="17.0" prefWidth="289.0" text="enter valid email" />
+            <Label fx:id="pw_valid" layoutX="299.0" layoutY="244.0" prefHeight="17.0" prefWidth="264.0" text="enter valid password" />
+        </children></AnchorPane>
+
